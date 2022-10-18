@@ -31,7 +31,9 @@ class Set:
                 bottom_side = Side(Pips(bottom))
                 new_domino = Domino(top_side, bottom_side)
                 self.add(new_domino)
-                print("created: "), top, bottom)
+                print("created: ", top, bottom)
 
     def add(self, domino):
         self.domino.append(domino)
+
+set = Set(6)

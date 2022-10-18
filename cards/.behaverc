@@ -1,0 +1,3 @@
+[behave]
+format = plain
+dryrun = false
